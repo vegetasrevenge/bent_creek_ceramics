@@ -1,0 +1,128 @@
+body {
+  max-width: 100%;
+  background-color: #F2F1E8;
+  height: 100vh;
+  margin: 0 auto
+}
+
+nav {
+  box-shadow: 2px 2px 2px darkgrey;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  }
+
+nav div {
+  width: 50px;
+  background-image: url(images/bent-creek-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  position: absolute;
+    top: 0;
+    left: 0;
+  height: 100%;
+}
+
+nav ul {
+  width: 100%;
+  color: #2B2F26;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a.active {
+  color: #968772;
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+
+#sign_up {
+  background-color: #FFFFFF;
+  flex-basis: 40%;
+  height: 300px;
+  align-self: center;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+fieldset {
+  display: inline-block;
+  width: 95%;
+  text-align: center;
+  border: none;
+
+}
+
+
+
+input {
+  border: none;
+  border-bottom: solid 3px #968772;
+  height: 50px;
+  width: 95%;
+  font-size: 16px;
+}
+
+input:focus {
+  border-bottom: solid 3px #967343;
+  outline: none;
+  transition-duration: 1s;
+}
+
+
+
+#background_image {
+  background-image: url(images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+
+  }
+
+#headline {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+button {
+  background-color: #968772;
+  color: #F2F1E8;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
+  transition-duration: 1s;
+}

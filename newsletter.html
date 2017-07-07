@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+  <title>Bent Creek Ceramics - Newsletter</title>
+  <link  href = "newsletterstyle.css" rel = "Stylesheet"/>
+  <link rel="shortcut icon" href="images/bent-creek-logo-coral.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav>
+    <div id = "navlogo">
+    </div>
+    <ul>
+      <li ><a href = "index.html">Home</a></li>
+      <li ><a href = "about.html">About</a></li>
+      <li ><a class = "active" href = "newsletter.html">Newsletter</a></li>
+    </ul>
+  </nav>
+  <div id = "background_image">
+      <form action="" method="post" id="sign_up">
+        <div>
+          <p id ="headline">Sign Up for Our Weekly Newsletter</p>
+          <p id ="subtext">Stay up to date with events, activities, news, and specials</p>
+        </div>
+        <fieldset>
+          <div>
+            <input id = "nameInput" placeholder="Name" type = "text" />
+          </div>
+          <div>
+
+            <input id = "emailInput" placeholder="Email" type = "email" />
+          </div>
+          <div id="button">
+            <button id = "signupButton" type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+
+  </div>
+
+  <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
+</body>
+
+</html>

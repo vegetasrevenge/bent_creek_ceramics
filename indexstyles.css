@@ -1,0 +1,181 @@
+body {
+  background-color: #F2F1E8;
+  width: 100%;
+  margin: 0 auto
+}
+
+nav {
+  box-shadow: 2px 2px 2px darkgrey;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  }
+
+nav div {
+  width: 50px;
+  background-image: url(images/bent-creek-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  position: absolute;
+    top: 0;
+    left: 0;
+  height: 100%;
+}
+
+nav ul {
+  width: 100%;
+  color: #2B2F26;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a.active {
+  color: #968772
+}
+a:hover {
+  color: #CD5D67
+}
+
+
+
+.main_container {
+  width: 100%;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  padding-top: 100px;
+  margin: 0 auto;
+  }
+
+
+
+.bent_creek {
+  height: 180px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20pt;
+  font-weight: 200;
+}
+
+.image_container {
+  color: #F2F1E8
+}
+
+.picture {
+  position: relative;
+}
+
+div > p {
+  background-color: #968772;
+  border-radius: 5px;
+  position: absolute;
+  left: 1;
+  bottom: 10px;
+  padding: 2px 5px;
+}
+
+
+.first_row {
+  display: flex;
+  flex-flow: row;
+  height: 450px;
+
+}
+
+#pic1 {
+  flex-basis: 60%;
+  background-image: url(images/product-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px
+}
+
+#pic2 {
+  flex-basis: 20%;
+  background-image: url(images/product-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+}
+
+#pic3 {
+  flex-basis: 20%;
+  background-image: url(images/product-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px
+}
+
+.second_row {
+  height: 220px;
+  display: flex;
+  flex-flow: row;
+}
+
+#pic4 {
+  flex-basis: 20%;
+  background-image: url(images/product-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+  }
+
+#pic5 {
+  flex-basis: 20%;
+  background-image: url(images/product-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px
+}
+
+#pic6 {
+  flex-basis: 40%;
+  background-image: url(images/product-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px
+}
+
+#pic7 {
+  flex-basis: 20%;
+  background-image: url(images/product-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px
+  }
+
+footer {
+  width: 100%;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  max-height: 120px;
+  text-align: left;
+  margin: 10px auto 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+footer > p {
+  padding: 20px;
+  margin: 0 auto;
+}
